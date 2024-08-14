@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page not found</title>
 </head>
 <body>
-    ESTO ES UN ERROR !!!
+    <h1></h1>
+
+    <script>
+      if(!sessionStorage.getItem("tested") && !window.location.hash ){
+        sessionStorage.setItem("tested", "t") 
+        
+      }
+    </script>
 </body>
 </html>
