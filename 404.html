@@ -17,7 +17,9 @@
         if (source === 'react') {
             document.getElementById('status').textContent = '404 Page Loaded via React';
           } else {
-            document.getElementById('status').textContent = '404 Page Loaded Directly';
+            console.log(window.location);
+            
+            // document.getElementById('status').textContent = '404 Page Loaded Directly';
           }
     </script>
 </body>
