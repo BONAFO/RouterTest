@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page not found</title>
+    <title>404 Page</title>
 </head>
 <body>
-    <h1></h1>
+    <h1 id="status">404 - Page Not Found</h1>
 
     <script>
-      if(!sessionStorage.getItem("tested") && !window.location.hash ){
-        sessionStorage.setItem("tested", "t") 
-        
-      }
+        // Función para obtener parámetros de la URL
+        function getQueryParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Leer el parámetro 'source' de la URL
+        const source = getQueryParam('source');
+
+        if (source === 'react') {
+            document.getElementById('status').textContent = '404 Page Loaded via React';
+            // Realiza acciones específicas para cuando se carga desde React
+        } else {
+            document.getElementById('status').textContent = '404 Page Loaded Directly';
+            // Realiza acciones específicas para cuando se carga directamente
+        }
     </script>
 </body>
 </html>

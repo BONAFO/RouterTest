@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_profile=self.webpackChunkreact_profile||[]).push([[468],{468:(e,r,t)=>{t.r(r),t.d(r,{default:()=>n});t(43);var c=t(579);const n=function(){return(0,c.jsx)("iframe",{src:`/404.html?source=${encodeURIComponent("react")}`,title:"Archivo HTML",width:"100%",height:"600px",style:{border:"none"}})}}}]);
+//# sourceMappingURL=468.87c23295.chunk.js.map
