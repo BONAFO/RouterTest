@@ -9,22 +9,16 @@
     <h1 id="status">404 - Page Not Found</h1>
 
     <script>
-        // Función para obtener parámetros de la URL
         function getQueryParam(name) {
             const urlParams = new URLSearchParams(window.location.search);
             return urlParams.get(name);
         }
-
-        // Leer el parámetro 'source' de la URL
         const source = getQueryParam('source');
-
         if (source === 'react') {
             document.getElementById('status').textContent = '404 Page Loaded via React';
-            // Realiza acciones específicas para cuando se carga desde React
-        } else {
+          } else {
             document.getElementById('status').textContent = '404 Page Loaded Directly';
-            // Realiza acciones específicas para cuando se carga directamente
-        }
+          }
     </script>
 </body>
 </html>
