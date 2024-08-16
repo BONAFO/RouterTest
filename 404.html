@@ -35,14 +35,16 @@
 
     <script>
         const RepoName = "/RouterTest/";
-        const urlParams = new URLSearchParams(window.location.search);
-        const source = urlParams.get('s');
-        if (source == '0') {
-            document.getElementById('status').textContent = '404 Page Loaded via React';
-        } else {
-            window.location.href = window.location.origin + RepoName+ "#/" + window.location.pathname.replace(RepoName + "");
-            document.getElementById('status').textContent = '404 Page Loaded Directly';
-        }
+        // const urlParams = new URLSearchParams(window.location.search);
+        // const source = urlParams.get('s');
+        // if (source == '0') {
+        //     document.getElementById('status').textContent = '404 Page Loaded via React';
+        // } else {
+        //     window.location.href = window.location.origin + RepoName+ "#/" + window.location.pathname.replace(RepoName , "");
+        //     document.getElementById('status').textContent = '404 Page Loaded Directly';
+        // }
+        window.location.href = window.location.origin + RepoName+ "#/" + window.location.pathname.replace(RepoName , "");
+
     </script>
 </body>
 

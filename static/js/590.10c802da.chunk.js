@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_profile=self.webpackChunkreact_profile||[]).push([[590],{590:(e,i,s)=>{s.r(i),s.d(i,{default:()=>a});var t=s(579);function a(){return(0,t.jsx)(t.Fragment,{children:(0,t.jsx)("img",{src:"https://static.wikia.nocookie.net/ficcion-sin-limites/images/a/a9/Tumblr_nfs04p6Jcj1szjhwvo1_1280-1.jpg/revision/latest?cb=20190603165803&path-prefix=es",alt:""})})}}}]);
+//# sourceMappingURL=590.10c802da.chunk.js.map
